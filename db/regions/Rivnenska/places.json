@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "name": "Базальтові Стовпи",
+        "shortname": "Bazaltovi_Stovpy",
+        "photosAmount": 4,
+        "description":  "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque, soluta asperiores recusandae dignissimos remtemporibus iusto non dolor necessitatibus voluptate mollitia optio sed dicta nemo qui id, earum nesciunt doloribus!"
+    },
+    {
+        "id": 2,
+        "name": "Біле Озеро",
+        "shortname": "Bile_Ozero",
+        "photosAmount": 4,
+        "description":  "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque, soluta asperiores recusandae dignissimos remtemporibus iusto non dolor necessitatibus voluptate mollitia optio sed dicta nemo qui id, earum nesciunt doloribus!"
+    },
+    {
+        "id": 3,
+        "name": "Тараканівський Форт",
+        "shortname": "Tarakanivskyi_Fort",
+        "photosAmount": 4,
+        "description":  "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque, soluta asperiores recusandae dignissimos remtemporibus iusto non dolor necessitatibus voluptate mollitia optio sed dicta nemo qui id, earum nesciunt doloribus!"
+    },
+    {
+        "id": 4,
+        "name": "Тунель Кохання",
+        "shortname": "Tunel_Kokhannia",
+        "photosAmount": 4,
+        "description":  "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque, soluta asperiores recusandae dignissimos remtemporibus iusto non dolor necessitatibus voluptate mollitia optio sed dicta nemo qui id, earum nesciunt doloribus!"
+    }
+]

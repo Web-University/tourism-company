@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "name": "Блакитне Озеро",
+        "shortname": "Blakytne_Ozero",
+        "photosAmount": 4,
+        "description":  "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque, soluta asperiores recusandae dignissimos remtemporibus iusto non dolor necessitatibus voluptate mollitia optio sed dicta nemo qui id, earum nesciunt doloribus!"
+    },
+    {
+        "id": 2,
+        "name": "Кам’янецький Водоспад",
+        "shortname": "Kamianetskyi_Vodospad",
+        "photosAmount": 4,
+        "description":  "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque, soluta asperiores recusandae dignissimos remtemporibus iusto non dolor necessitatibus voluptate mollitia optio sed dicta nemo qui id, earum nesciunt doloribus!"
+    },
+    {
+        "id": 3,
+        "name": "Розгірче",
+        "shortname": "Rozghirche",
+        "photosAmount": 4,
+        "description":  "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque, soluta asperiores recusandae dignissimos remtemporibus iusto non dolor necessitatibus voluptate mollitia optio sed dicta nemo qui id, earum nesciunt doloribus!"
+    },
+    {
+        "id": 4,
+        "name": "Урицькі Скелі",
+        "shortname": "Urytski_Skeli",
+        "photosAmount": 4,
+        "description":  "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque, soluta asperiores recusandae dignissimos remtemporibus iusto non dolor necessitatibus voluptate mollitia optio sed dicta nemo qui id, earum nesciunt doloribus!"
+    }
+]

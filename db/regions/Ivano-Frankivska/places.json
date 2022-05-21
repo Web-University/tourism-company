@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "name": "Івано-Франківська Ратуша",
+        "shortname": "Ivano-Frankivska_Ratusha",
+        "photosAmount": 4,
+        "description":  "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque, soluta asperiores recusandae dignissimos remtemporibus iusto non dolor necessitatibus voluptate mollitia optio sed dicta nemo qui id, earum nesciunt doloribus!"
+    },
+    {
+        "id": 2,
+        "name": "Манявський Водоспад",
+        "shortname": "Maniavskyi_Vodospad",
+        "photosAmount": 4,
+        "description":  "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque, soluta asperiores recusandae dignissimos remtemporibus iusto non dolor necessitatibus voluptate mollitia optio sed dicta nemo qui id, earum nesciunt doloribus!"
+    },
+    {
+        "id": 3,
+        "name": "Озеро Несамовите",
+        "shortname": "Ozero_Nesamovyte",
+        "photosAmount": 4,
+        "description":  "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque, soluta asperiores recusandae dignissimos remtemporibus iusto non dolor necessitatibus voluptate mollitia optio sed dicta nemo qui id, earum nesciunt doloribus!"
+    },
+    {
+        "id": 4,
+        "name": "Святилище Довбушеві Комори",
+        "shortname": "Sviatylyshche_Dovbushevi_Komory",
+        "photosAmount": 4,
+        "description":  "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque, soluta asperiores recusandae dignissimos remtemporibus iusto non dolor necessitatibus voluptate mollitia optio sed dicta nemo qui id, earum nesciunt doloribus!"
+    }
+]

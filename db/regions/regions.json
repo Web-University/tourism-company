@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "Івано-Франківська обл.",
+        "shortnameRegion": "Ivano-Frankivska",
+        "placesAmount":4,
+        "notes": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque, soluta asperiores recusandae dignissimos remtemporibus iusto non dolor necessitatibus voluptate mollitia optio sed dicta nemo qui id, earum nesciunt doloribus!"
+    },
+    {
+        "id": 2,
+        "name": "Хмельницька обл.",
+        "shortnameRegion": "Khmelnytska",
+        "placesAmount":4,
+        "notes": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque, soluta asperiores recusandae dignissimos remtemporibus iusto non dolor necessitatibus voluptate mollitia optio sed dicta nemo qui id, earum nesciunt doloribus!"
+    },
+    {
+        "id": 3,
+        "name": "Львівська обл.",
+        "shortnameRegion": "Lvivska",
+        "placesAmount":4,
+        "notes": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque, soluta asperiores recusandae dignissimos remtemporibus iusto non dolor necessitatibus voluptate mollitia optio sed dicta nemo qui id, earum nesciunt doloribus!"
+    },
+    {
+        "id": 4,
+        "name": "Рівненська обл.",
+        "shortnameRegion": "Rivnenska",
+        "placesAmount":4,
+        "notes": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque, soluta asperiores recusandae dignissimos remtemporibus iusto non dolor necessitatibus voluptate mollitia optio sed dicta nemo qui id, earum nesciunt doloribus!"
+    },
+    {
+        "id": 5,
+        "name": "Тернопільска обл.",
+        "shortnameRegion": "Ternopilska",
+        "placesAmount":4,
+        "notes": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque, soluta asperiores recusandae dignissimos remtemporibus iusto non dolor necessitatibus voluptate mollitia optio sed dicta nemo qui id, earum nesciunt doloribus!"
+    },
+    {
+        "id": 6,
+        "name": "Закарпатська обл.",
+        "shortnameRegion": "Zakarpatska",
+        "placesAmount":4,
+        "notes": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque, soluta asperiores recusandae dignissimos remtemporibus iusto non dolor necessitatibus voluptate mollitia optio sed dicta nemo qui id, earum nesciunt doloribus!"
+    }
+]
