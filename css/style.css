@@ -1,0 +1,36 @@
+header {
+    width: 100%;
+}
+header *{
+    color:rgb(80, 79, 79) !important;
+}
+.carousel-item img {
+    height: 100%  ;
+}
+body{
+    width: 100%;
+    align-items: center;
+}
+main{
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+.row img{
+    border-radius: 15px;
+}
+#carouselExampleDark{
+    margin-top: 2%;
+    border-radius: 15px;
+    overflow: hidden;
+}
+#mainText{
+    z-index: 2;
+}
+
+.navbar-toggler-icon{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+
