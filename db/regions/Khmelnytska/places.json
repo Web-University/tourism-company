@@ -4,27 +4,31 @@
         "name": "Бакота",
         "shortname": "Bakota",
         "photosAmount": 4,
-        "description":  "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque, soluta asperiores recusandae dignissimos remtemporibus iusto non dolor necessitatibus voluptate mollitia optio sed dicta nemo qui id, earum nesciunt doloribus!"
+        "description":  "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque, soluta asperiores recusandae dignissimos remtemporibus iusto non dolor necessitatibus voluptate mollitia optio sed dicta nemo qui id, earum nesciunt doloribus!",
+        "gmapsRef":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2638.7394488202576!2d26.954998817443844!3d48.59568749999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4733a63e5ac76d01%3A0xebed9836375faff!2z0JHQsNC60L7RgtCw!5e0!3m2!1sru!2sua!4v1653138325451!5m2!1sru!2sua"
     },
     {
         "id": 2,
         "name": "Кам’янець-Подільский",
         "shortname": "Kamianets-Podilskyi",
         "photosAmount": 4,
-        "description":  "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque, soluta asperiores recusandae dignissimos remtemporibus iusto non dolor necessitatibus voluptate mollitia optio sed dicta nemo qui id, earum nesciunt doloribus!"
+        "description":  "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque, soluta asperiores recusandae dignissimos remtemporibus iusto non dolor necessitatibus voluptate mollitia optio sed dicta nemo qui id, earum nesciunt doloribus!",
+        "gmapsRef":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d84279.90020395689!2d26.509964905732808!3d48.69120387288717!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4733b873f87ab577%3A0x82ac3b42e4f75137!2z0JrQsNC80LXQvdC10YYt0J_QvtC00L7Qu9GM0YHQutC40LksINCl0LzQtdC70YzQvdC40YbQutCw0Y8g0L7QsdC70LDRgdGC0Yw!5e0!3m2!1sru!2sua!4v1653138411617!5m2!1sru!2sua"
     },
     {
         "id": 3,
         "name": "Малієвецький Водоспад",
         "shortname": "Maliievetskyi_Vodospad",
         "photosAmount": 4,
-        "description":  "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque, soluta asperiores recusandae dignissimos remtemporibus iusto non dolor necessitatibus voluptate mollitia optio sed dicta nemo qui id, earum nesciunt doloribus!"
+        "description":  "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque, soluta asperiores recusandae dignissimos remtemporibus iusto non dolor necessitatibus voluptate mollitia optio sed dicta nemo qui id, earum nesciunt doloribus!",
+        "gmapsRef":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2617.989713956987!2d26.994387315634413!3d48.99175317930076!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47324658c51ff95b%3A0x4e694b0c5ede75cf!2z0JzQsNC70LjQtdCy0LXRhtC60LjQuSDQstC-0LTQvtC_0LDQtA!5e0!3m2!1sru!2sua!4v1653138452024!5m2!1sru!2sua"
     },
     {
         "id": 4,
         "name": "Печера Атлантида",
         "shortname": "Pechera_Atlantyda",
         "photosAmount": 4,
-        "description":  "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque, soluta asperiores recusandae dignissimos remtemporibus iusto non dolor necessitatibus voluptate mollitia optio sed dicta nemo qui id, earum nesciunt doloribus!"
+        "description":  "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque, soluta asperiores recusandae dignissimos remtemporibus iusto non dolor necessitatibus voluptate mollitia optio sed dicta nemo qui id, earum nesciunt doloribus!",
+        "gmapsRef":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10554.48174055612!2d26.336256240612613!3d48.59796606820365!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4733c20617c5b629%3A0xb30828f4ae3bb8fc!2z0JDRgtC70LDQvdGC0LjQtNCw!5e0!3m2!1sru!2sua!4v1653138486534!5m2!1sru!2sua"
     }
 ]

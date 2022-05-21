@@ -4,27 +4,31 @@
         "name": "Джуринський Водоспад",
         "shortname": "Dzhurynskyi_Vodospad",
         "photosAmount": 4,
-        "description":  "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque, soluta asperiores recusandae dignissimos remtemporibus iusto non dolor necessitatibus voluptate mollitia optio sed dicta nemo qui id, earum nesciunt doloribus!"
+        "description":  "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque, soluta asperiores recusandae dignissimos remtemporibus iusto non dolor necessitatibus voluptate mollitia optio sed dicta nemo qui id, earum nesciunt doloribus!",
+        "gmapsRef":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2627.7923579889416!2d25.585602515627688!3d48.8049414792823!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47311533a2876b39%3A0x1345a900d23c7f31!2z0JLQvtC00L7Qv9Cw0LQg0J3QsCDQoNC10LrQtSDQlNC20YPRgNGL0L0g0JIg0J3Ri9GA0LrQvtCy0LU!5e0!3m2!1sru!2sua!4v1653138880431!5m2!1sru!2sua"
     },
     {
         "id": 2,
         "name": "Старий Замок",
         "shortname": "Staryi_Zamok",
         "photosAmount": 4,
-        "description":  "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque, soluta asperiores recusandae dignissimos remtemporibus iusto non dolor necessitatibus voluptate mollitia optio sed dicta nemo qui id, earum nesciunt doloribus!"
+        "description":  "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque, soluta asperiores recusandae dignissimos remtemporibus iusto non dolor necessitatibus voluptate mollitia optio sed dicta nemo qui id, earum nesciunt doloribus!",
+        "gmapsRef":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2588.3511928645694!2d25.585482715654855!3d49.55339637936165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473036b56552c17f%3A0x7358655d4197fabe!2zU3Rhcnl5IFphbW9rLCDQl9Cw0LzQutC-0LLQsCDQstGD0LvQuNGG0Y8sIDEyLCDQotC10YDQvdC-0L_RltC70YwsINCi0LXRgNC90L7Qv9GW0LvRjNGB0YzQutCwINC-0LHQu9Cw0YHRgtGMLCA0NjAwMA!5e0!3m2!1sru!2sua!4v1653138922599!5m2!1sru!2sua"
     },
     {
         "id": 3,
         "name": "Заліщики",
         "shortname": "Zalishchyky",
         "photosAmount": 3,
-        "description":  "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque, soluta asperiores recusandae dignissimos remtemporibus iusto non dolor necessitatibus voluptate mollitia optio sed dicta nemo qui id, earum nesciunt doloribus!"
+        "description":  "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque, soluta asperiores recusandae dignissimos remtemporibus iusto non dolor necessitatibus voluptate mollitia optio sed dicta nemo qui id, earum nesciunt doloribus!",
+        "gmapsRef":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d21087.1623988201!2d25.71754737311393!3d48.650118123113096!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47315b50b5d8b3a9%3A0x8e439d56d889cc92!2z0JfQsNC70LXRidC40LrQuCwg0KLQtdGA0L3QvtC_0L7Qu9GM0YHQutCw0Y8g0L7QsdC70LDRgdGC0YwsIDQ4NjAy!5e0!3m2!1sru!2sua!4v1653138946579!5m2!1sru!2sua"
     },
     {
         "id": 4,
         "name": "Збаразький Замок",
         "shortname": "Zbarazkyi_Zamok",
         "photosAmount": 4,
-        "description":  "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque, soluta asperiores recusandae dignissimos remtemporibus iusto non dolor necessitatibus voluptate mollitia optio sed dicta nemo qui id, earum nesciunt doloribus!"
+        "description":  "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque, soluta asperiores recusandae dignissimos remtemporibus iusto non dolor necessitatibus voluptate mollitia optio sed dicta nemo qui id, earum nesciunt doloribus!",
+        "gmapsRef":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2582.522004234298!2d25.78320771565885!3d49.663305079374474!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47302d27fff1a94d%3A0x421a398760c8320a!2z0JfQsdCw0YDQsNC20YHQutC40Lkg0LfQsNC80L7Qug!5e0!3m2!1sru!2sua!4v1653138972007!5m2!1sru!2sua"
     }
 ]

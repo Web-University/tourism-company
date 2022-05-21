@@ -4,27 +4,31 @@
         "name": "Базальтові Стовпи",
         "shortname": "Bazaltovi_Stovpy",
         "photosAmount": 4,
-        "description":  "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque, soluta asperiores recusandae dignissimos remtemporibus iusto non dolor necessitatibus voluptate mollitia optio sed dicta nemo qui id, earum nesciunt doloribus!"
+        "description":  "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque, soluta asperiores recusandae dignissimos remtemporibus iusto non dolor necessitatibus voluptate mollitia optio sed dicta nemo qui id, earum nesciunt doloribus!",
+        "gmapsRef":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2515.0577990245115!2d26.232137517443846!3d50.9226478!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x472f5019a5e8d88b%3A0x469f947353fdf809!2z0JHQsNC30LDQu9GM0YLQvtCy0YvQtSDRgdGC0L7Qu9Cx0Ys!5e0!3m2!1sru!2sua!4v1653138767111!5m2!1sru!2sua"
     },
     {
         "id": 2,
         "name": "Біле Озеро",
         "shortname": "Bile_Ozero",
         "photosAmount": 4,
-        "description":  "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque, soluta asperiores recusandae dignissimos remtemporibus iusto non dolor necessitatibus voluptate mollitia optio sed dicta nemo qui id, earum nesciunt doloribus!"
+        "description":  "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque, soluta asperiores recusandae dignissimos remtemporibus iusto non dolor necessitatibus voluptate mollitia optio sed dicta nemo qui id, earum nesciunt doloribus!",
+        "gmapsRef":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19877.484321059463!2d25.737563179844063!3d51.48228614637046!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4726694376428559%3A0x8a2a28239f5ec5fe!2z0L7Qty4g0JHQtdC70L7QtQ!5e0!3m2!1sru!2sua!4v1653138798660!5m2!1sru!2sua"
     },
     {
         "id": 3,
         "name": "Тараканівський Форт",
         "shortname": "Tarakanivskyi_Fort",
         "photosAmount": 4,
-        "description":  "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque, soluta asperiores recusandae dignissimos remtemporibus iusto non dolor necessitatibus voluptate mollitia optio sed dicta nemo qui id, earum nesciunt doloribus!"
+        "description":  "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque, soluta asperiores recusandae dignissimos remtemporibus iusto non dolor necessitatibus voluptate mollitia optio sed dicta nemo qui id, earum nesciunt doloribus!",
+        "gmapsRef":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2545.175679275309!2d25.713656915684727!3d50.36327857946346!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x472f9b292e9056fd%3A0x4f57fef22cc5517c!2z0KLQsNGA0LDQutCw0L3RltCy0YHRjNC60LjQuSDRhNC-0YDRgg!5e0!3m2!1sru!2sua!4v1653138821987!5m2!1sru!2sua"
     },
     {
         "id": 4,
         "name": "Тунель Кохання",
         "shortname": "Tunel_Kokhannia",
         "photosAmount": 4,
-        "description":  "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque, soluta asperiores recusandae dignissimos remtemporibus iusto non dolor necessitatibus voluptate mollitia optio sed dicta nemo qui id, earum nesciunt doloribus!"
+        "description":  "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque, soluta asperiores recusandae dignissimos remtemporibus iusto non dolor necessitatibus voluptate mollitia optio sed dicta nemo qui id, earum nesciunt doloribus!",
+        "gmapsRef":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2524.34897394679!2d26.041781015699108!3d50.75056257951785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x472f6794eb3359ad%3A0xd64867ba48ab1f13!2z0KLRg9C90L3QtdC70Ywg0JvRjtCx0LLQuA!5e0!3m2!1sru!2sua!4v1653138845841!5m2!1sru!2sua"
     }
 ]
