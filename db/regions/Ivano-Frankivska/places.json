@@ -1,0 +1,34 @@
+[
+    {
+        "id": 1,
+        "name": "Івано-Франківська Ратуша",
+        "shortname": "Ivano-Frankivska_Ratusha",
+        "photosAmount": 4,
+        "description":  "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque, soluta asperiores recusandae dignissimos remtemporibus iusto non dolor necessitatibus voluptate mollitia optio sed dicta nemo qui id, earum nesciunt doloribus!",
+        "gmapsRef":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2621.6126907289827!2d24.70827031563186!3d48.922770979293844!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4730c1134c1e1d05%3A0x52490da1a618a0de!2z0JjQstCw0L3Qvi3QpNGA0LDQvdC60L7QstGB0LrQsNGPINGA0LDRgtGD0YjQsCwg0JjQstCw0L3Qvi3QpNGA0LDQvdC60L7QstGB0LosINCY0LLQsNC90L4t0KTRgNCw0L3QutC-0LLRgdC60LDRjyDQvtCx0LvQsNGB0YLRjCwgNzYwMDA!5e0!3m2!1sru!2sua!4v1653137353109!5m2!1sru!2sua"
+    },
+    {
+        "id": 2,
+        "name": "Манявський Водоспад",
+        "shortname": "Maniavskyi_Vodospad",
+        "photosAmount": 4,
+        "description":  "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque, soluta asperiores recusandae dignissimos remtemporibus iusto non dolor necessitatibus voluptate mollitia optio sed dicta nemo qui id, earum nesciunt doloribus!",
+        "gmapsRef":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2637.171632693254!2d24.299033830846273!3d48.62569761294565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473749eac8a8f083%3A0xc7bcfba3a6820845!2z0JzQsNC90Y_QstGB0LrQuNC5INCy0L7QtNC-0L_QsNC0!5e0!3m2!1sru!2sua!4v1653137583564!5m2!1sru!2sua"
+    },
+    {
+        "id": 3,
+        "name": "Озеро Несамовите",
+        "shortname": "Ozero_Nesamovyte",
+        "photosAmount": 4,
+        "description":  "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque, soluta asperiores recusandae dignissimos remtemporibus iusto non dolor necessitatibus voluptate mollitia optio sed dicta nemo qui id, earum nesciunt doloribus!",
+        "gmapsRef":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2663.3619969124234!2d24.537088765602924!3d48.12254197922223!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4736fc7ee4e423a7%3A0x3461346602527962!2z0J3QtdC40YHRgtC-0LLQvtC1!5e0!3m2!1sru!2sua!4v1653137664061!5m2!1sru!2sua" 
+    },
+    {
+        "id": 4,
+        "name": "Святилище Довбушеві Комори",
+        "shortname": "Sviatylyshche_Dovbushevi_Komory",
+        "photosAmount": 4,
+        "description":  "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque, soluta asperiores recusandae dignissimos remtemporibus iusto non dolor necessitatibus voluptate mollitia optio sed dicta nemo qui id, earum nesciunt doloribus!",
+        "gmapsRef":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10648.562448225886!2d24.894869340351637!3d48.14609431758416!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4736ecf5037c572f%3A0x395b45cf87f9dfa3!2z0LPQvtGA0LAg0KHQuNC90LjRhtGL!5e0!3m2!1sru!2sua!4v1653138223762!5m2!1sru!2sua"
+    }
+]
