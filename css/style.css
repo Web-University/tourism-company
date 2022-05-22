@@ -1,15 +1,23 @@
+
 header {
     width: 100%;
+   /* background-color: #1f3488;*/
 }
-header *{
+/*header *{
     color:rgb(80, 79, 79) !important;
-}
+}*/
 .carousel-item img {
     height: 100%  ;
 }
 body{
     width: 100%;
     align-items: center;
+
+    background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(11).jpg");
+    height: 70%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 main{
     margin-top: auto;
@@ -19,6 +27,7 @@ main{
 }
 .row img{
     border-radius: 15px;
+
 }
 #carouselExampleDark{
     margin-top: 2%;
@@ -34,3 +43,97 @@ main{
 }
 
 
+.row{
+    margin: 20px;
+    background-color: #00000067;
+    color:rgba(255, 255, 255, 0.653);
+    border-radius: 15px;
+}
+.bg-blue{
+    background-color: #b2923d;
+}
+
+/******HEADER******/
+.navbar-brand h1{
+    font-family:'Monsterrat', sana-serif;
+    color:#629537;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px, 1px, 1px,#222;
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+.navbar-brand a{
+    text-decoration: none;
+
+}
+.navbar-nav a{
+    color:#47558a;
+    font-size: 1.3em;
+
+}
+
+.dropdown-menu{
+    background-color:  #898989 ;
+}
+.dropdown-divider{
+    color:#ffffff;
+    height: 4;
+}
+#phone{
+    text-align: right;
+}
+
+.footer{
+    background-color: #222;
+}
+
+
+/******HEADER******/
+/*Extra large devices*/
+@media(min-width: 1200px) {
+    .d-small{
+        display: none;
+    }
+}
+/*large devices*/
+@media(min-width: 992px) and (max-width: 1199px) {
+    .d-small{
+        display: none;
+    }
+    .navbar-nav{
+        font-size:70%;
+    }
+}
+/*medium devices*/
+@media(min-width: 768px) and (max-width:991px){
+    .d-small{
+        display: block;
+    }
+    .navbar-brand h1{
+        font-size:95%;
+    }
+    .navbar-nav{
+        font-size:60%;
+    }
+}
+/*small devices*/
+@media(min-width: 576px) and (max-width:767px){
+    .d-small{
+        display: block;
+    }
+    .navbar-brand h1{
+        font-size:95%;
+    }
+}
+/*X-small devices*/
+@media(max-width: 575px) {
+    .d-small{
+        display: block;
+    }
+    .navbar-brand h1{
+        font-size:95%;
+    }
+}

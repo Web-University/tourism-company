@@ -5,7 +5,7 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
+	<title>TourismClub</title>
 	<link href="./css/bootstrap.min.css" rel="stylesheet">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,40 +15,66 @@
 </head>
 
 <body>
+	<script>
+		if(localStorage.getItem('Name')==null){
+        let group = prompt("Ваше ім'я:");
+		localStorage.setItem('Name', group);
+		}
+    </script>
 	<header>
-		<nav class="navbar navbar-expand-md bg-light">
-			<div class="container w-75">
-				<a class="navbar-brand" href="#">Company, LLC</a>
+		<nav class="navbar navbar-expand-md bg-blue">
+			<div class="container w-75 p-0">
+			  <div class="navbar-brand">
+				<a class="d-none d-lg-block" href="index.html">
+					<img src="./db/Logo.png" class="d-block" alt="Logo-Large" width="200px">
+				</a>
+				<a class="d-small" href="index.html">
+					<img src="./db/Logo.png" class="d-block" alt="Logo-Large" width="110px">
+				</a>
+				<a href="index.html"><h1>Tourism Company</h1></a> 
+			  </div>
+
+
 				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 				</button>
 				<div class="collapse navbar-collapse" id="navbarSupportedContent">
-					<ul class="navbar-nav justify-content-evenly w-100">
+					<ul class="navbar-nav justify-content-between w-100">
+						
 						<li class="nav-item my-auto">
-							<hr class="m-0 mt-2 d-md-none" color="#fff" />
-							<a class="nav-link text-center " href="#caption1">Caption 1</a>
-							<hr class="m-0 d-md-none" color="#fff" />
+							<hr class="m-0 mt-2 d-md-none" color="#47558a" />
+							<a id="Name" class="nav-link text-center " href="#caption1"></a>
+							<hr class="m-0 d-md-none" color="#47558a" />
 						</li>
-						<li class="nav-item my-auto">
-							<a class="nav-link text-center" href="#caption2">Caption 2</a>
-							<hr class="m-0 d-md-none" color="#fff" />
-						</li>
+
+						<script>
+						let currentName = localStorage.getItem('Name');
+						document.getElementById('Name').innerHTML="Hello "+currentName;
+						</script>
+
+						<!--<li class="nav-item my-auto">
+							<a id="name" class="nav-link text-center" href="#caption2">Caption 2</a>
+							<hr class="m-0 d-md-none" color="#000000" />
+						</li>-->
 						<li class="nav-item dropdown text-center my-auto">
 							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-							  Dropdown
+							  Catalog
 							</a>
 							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
 							  <li><a class="dropdown-item" href="#">Action</a></li>
 							  <li><hr class="dropdown-divider"></li>
-
 							  <li><a class="dropdown-item" href="#">Another action</a></li>
 							  <li><hr class="dropdown-divider"></li>
 							  <li><a class="dropdown-item" href="#">Something else here</a></li>
 							</ul>
 						  </li>
-						  <li class="nav-item">
-							<a class="nav-link text-center w-100 fs-4  " href="#caption3">+380-67-98-23-322</a>
-							<hr class="m-0 d-md-none" color="#fff" />
+						  
+						  <li id="phone" class="nav-item">
+							<a class="nav-link text-center w-100 fs-4 p-0" href="#caption3">
+								<span >+380-67-98-23-322</span>
+								</a>
+							<div>* Contact Us</div>
+							<hr class="m-0 d-md-none" color="#000000" />
 						</li>
 					</ul>
 				</div>
@@ -57,9 +83,9 @@
 	
 	</header>
 
-		<main class="mx-auto w-75 ">
+		<main class="mx-auto w-75">
 			<!-- заголовок сайту-->
-			<div id="mainText" class="position-absolute w-75 text-center my-5 mx-auto">
+			<div id="mainText" class="position-absolute w-75 text-center my-5 mx-auto pt-0">
 				<h1>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</h1>
 			</div>
 			<!--карусель-->
@@ -72,7 +98,7 @@
 					<button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
 						aria-label="Slide 3"></button>
 				</div>
-				<div class="carousel-inner">
+				<div class="carousel-inner ">
 					<div class="carousel-item active" data-bs-interval="10000">
 						<img src="https://place-hold.it/1000x700" class="d-block w-100" alt="...">
 						<div class="carousel-caption d-none d-md-block">
@@ -117,50 +143,50 @@
 
 			<div class="w-75 mx-auto container">
 				<div class="row">
-					<div class="col-6">
-						<h3 class="px-1 py-4 text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum
+					<div class="col-12 col-md-6">
+						<h3 class="px-1 py-4 text-center text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum
 							reiciendis praesentium similique,
 							corporis placeat ratione quas id debitis earum nobis, dolorem temporibus quae et neque
 							expedita
 							repellat! Corrupti, quibusdam commodi?</h3>
 					</div>
-					<div class="img-fluid col-6 p-3">
+					<div class="img-fluid col-12 col-md-6 p-3">
 						<img src="https://place-hold.it/1000x700" class="d-block w-100" alt="...">
 					</div>
 				</div>
 
-				<div class="row">
+				<div class="row ">
 
-					<div class="img-fluid col-6 p-3">
+					<div class="img-fluid col-12 col-md-6 p-3">
 						<img src="https://place-hold.it/1000x700" class="d-block w-100" alt="...">
 					</div>
-					<div class="col-6">
-						<h3 class="px-1 py-4 text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum
+					<div class="col-12 col-md-6">
+						<h3 class="px-1 py-4 text-center text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum
 							reiciendis praesentium similique,
 							corporis placeat ratione quas id debitis earum nobis, dolorem temporibus quae et neque
 							expedita
 							repellat! Corrupti, quibusdam commodi?</h3>
 					</div>
 				</div>
-				<div class="row">
-					<div class="col-6">
-						<h3 class="px-1 py-4 text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum
+				<div class="row ">
+					<div class="col-12 col-md-6">
+						<h3 class="px-1 py-4 text-center text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum
 							reiciendis praesentium similique,
 							corporis placeat ratione quas id debitis earum nobis, dolorem temporibus quae et neque
 							expedita
 							repellat! Corrupti, quibusdam commodi?</h3>
 					</div>
-					<div class="img-fluid col-6 p-3">
+					<div class="img-fluid col-12 col-md-6 p-3">
 						<img src="https://place-hold.it/1000x700" class="d-block w-100" alt="...">
 					</div>
 				</div>
-				<div class="row">
+				<div class="row ">
 
-					<div class="img-fluid col-6 p-3">
+					<div class="img-fluid col-12 col-md-6 p-3">
 						<img src="https://place-hold.it/1000x700" class="d-block w-100" alt="...">
 					</div>
-					<div class="col-6">
-						<h3 class="px-1 py-4 text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum
+					<div class="col-12 col-md-6">
+						<h3 class="px-1 py-4 text-center text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum
 							reiciendis praesentium similique,
 							corporis placeat ratione quas id debitis earum nobis, dolorem temporibus quae et neque
 							expedita
@@ -177,6 +203,10 @@
 			</div>
 
 		</main>
+
+		<footer class="footer">
+			<span>like</span>
+		</footer>
 		<script src="./js/bootstrap.bundle.min.js"></script>
 </body>
 
