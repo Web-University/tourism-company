@@ -10,204 +10,276 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" rel="stylesheet">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Quicksand:wght@300&display=swap"
+		rel="stylesheet">
 	<link href="./css/style.css" rel="stylesheet">
 
 </head>
 
 <body>
-	<script>
-		if(localStorage.getItem('Name')==null){
-        let group = prompt("Ваше ім'я:");
-		localStorage.setItem('Name', group);
-		}
-    </script>
 	<header>
 		<nav class="navbar navbar-expand-md bg-blue">
-			<div class="container w-75 p-0">
-			  <div class="navbar-brand">
-				<a class="d-none d-lg-block" href="index.html">
-					<img src="./db/Logo.png" class="d-block" alt="Logo-Large" width="200px">
-				</a>
-				<a class="d-small" href="index.html">
-					<img src="./db/Logo.png" class="d-block" alt="Logo-Large" width="110px">
-				</a>
-				<a href="index.html"><h1>Tourism Company</h1></a> 
-			  </div>
-
-
-				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<div class="container w-75 ">
+				<!-- лого-->
+				<div class="navbar-brand text-center">
+					<a href="index.html">
+						<img src="./db/Logo.png" class="d-inline" alt="Logo-Large" width="85px">
+						<h1 id="navbarBrandText" class="d-inline">Турист</h1>
+					</a>
+				</div>
+				<!-- бт бургер-->
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+					data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+					aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 				</button>
+				<!--бургер-->
 				<div class="collapse navbar-collapse" id="navbarSupportedContent">
-					<ul class="navbar-nav justify-content-between w-100">
-						
-						<li class="nav-item my-auto">
-							<hr class="m-0 mt-2 d-md-none" color="#47558a" />
-							<a id="Name" class="nav-link text-center " href="#caption1"></a>
-							<hr class="m-0 d-md-none" color="#47558a" />
-						</li>
-
-						<script>
-						let currentName = localStorage.getItem('Name');
-						document.getElementById('Name').innerHTML="Hello "+currentName;
-						</script>
-
-						<!--<li class="nav-item my-auto">
-							<a id="name" class="nav-link text-center" href="#caption2">Caption 2</a>
-							<hr class="m-0 d-md-none" color="#000000" />
-						</li>-->
-						<li class="nav-item dropdown text-center my-auto">
-							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-							  Catalog
+					<ul class="navbar-nav justify-content-between w-100 pl-5">
+						<li id="Catalog" class=" nav-item dropdown text-center my-auto d-none d-md-block">
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+								data-bs-toggle="dropdown" aria-expanded="false">
+								Catalog
 							</a>
 							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-							  <li><a class="dropdown-item" href="#">Action</a></li>
-							  <li><hr class="dropdown-divider"></li>
-							  <li><a class="dropdown-item" href="#">Another action</a></li>
-							  <li><hr class="dropdown-divider"></li>
-							  <li><a class="dropdown-item" href="#">Something else here</a></li>
+								<li><a class="dropdown-item" href="#">Action</a></li>
+								<li>
+									<hr class="dropdown-divider">
+								</li>
+								<li><a class="dropdown-item" href="#">Another action</a></li>
+								<li>
+									<hr class="dropdown-divider">
+								</li>
+								<li><a class="dropdown-item" href="#">Something else here</a></li>
 							</ul>
-						  </li>
-						  
-						  <li id="phone" class="nav-item">
-							<a class="nav-link text-center w-100 fs-4 p-0" href="#caption3">
-								<span >+380-67-98-23-322</span>
-								</a>
-							<div>* Contact Us</div>
-							<hr class="m-0 d-md-none" color="#000000" />
+						</li>
+						<tel></tel>
+						<li><a class="nav-item d-md-none" href="#">Action</a></li>
+						<li><a class="nav-item d-md-none" href="#">Another action</a></li>
+						<li><a class="nav-item d-md-none" href="#">Something else here</a></li>
+
+						<li id="Phone" class="nav-item my-auto ">
+
+							<a class="nav-link text-center w-100  p-0 d-inline-block"
+								href="tel:+1-847-555-5555"><span>1-847-555-5555</span></a>
+
+							<div id="UserName" class="text-end">
+							</div>
+
 						</li>
 					</ul>
 				</div>
 			</div>
 		</nav>
-	
-	</header>
 
-		<main class="mx-auto w-75">
-			<!-- заголовок сайту-->
-			<div id="mainText" class="position-absolute w-75 text-center my-5 mx-auto pt-0">
-				<h1>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</h1>
+	</header><!--Верх сайту-->
+
+	<main class="mx-auto">
+		<!-- заголовок сайту-->
+		<div id="mainText" class="position-absolute w-75 text-center my-5 mx-auto pt-0">
+			<h1>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</h1>
+		</div>
+		<!--карусель-->
+		<div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+			<div class="carousel-indicators">
+				<button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+					aria-current="true" aria-label="Slide 1"></button>
+				<button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+					aria-label="Slide 2"></button>
+				<button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+					aria-label="Slide 3"></button>
 			</div>
-			<!--карусель-->
-			<div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
-				<div class="carousel-indicators">
-					<button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
-						aria-current="true" aria-label="Slide 1"></button>
-					<button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
-						aria-label="Slide 2"></button>
-					<button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
-						aria-label="Slide 3"></button>
-				</div>
-				<div class="carousel-inner ">
-					<div class="carousel-item active" data-bs-interval="10000">
-						<img src="https://place-hold.it/1000x700" class="d-block w-100" alt="...">
-						<div class="carousel-caption d-none d-md-block">
-							<h5>First slide label</h5>
-							<p>Some representative placeholder content for the first slide.</p>
-						</div>
-					</div>
-					<div class="carousel-item" data-bs-interval="2000">
-						<img src="https://place-hold.it/1000x700" class="d-block w-100" alt="...">
-						<div class="carousel-caption d-none d-md-block">
-							<h5>Second slide label</h5>
-							<p>Some representative placeholder content for the second slide.</p>
-						</div>
-					</div>
-					<div class="carousel-item">
-						<img src="https://place-hold.it/1000x700" class="d-block w-100" alt="...">
-						<div class="carousel-caption d-none d-md-block">
-							<h5>Third slide label</h5>
-							<p>Some representative placeholder content for the third slide.</p>
-						</div>
+			<div class="carousel-inner ">
+				<div class="carousel-item active" data-bs-interval="10000">
+					<img src="https://place-hold.it/1000x700" class="d-block w-100" alt="...">
+					<div class="carousel-caption d-none d-md-block">
+						<h5>First slide label</h5>
+						<p>Some representative placeholder content for the first slide.</p>
 					</div>
 				</div>
-				<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
-					data-bs-slide="prev">
-					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-					<span class="visually-hidden">Previous</span>
-				</button>
-				<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
-					data-bs-slide="next">
-					<span class="carousel-control-next-icon" aria-hidden="true"></span>
-					<span class="visually-hidden">Next</span>
-				</button>
-			</div>
-			<!--Teкст якийсь-->
-			<div class="mx-auto text-center my-5">
-				<h2>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus sunt dolores magni dicta voluptates
-					aut
-					culpa provident illum ab id quisquam, iusto asperiores quis, maxime ratione? Explicabo porro odit
-					maiores.</h2>
-			</div>
-			<!--Категорії -->
-
-			<div class="w-75 mx-auto container">
-				<div class="row">
-					<div class="col-12 col-md-6">
-						<h3 class="px-1 py-4 text-center text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum
-							reiciendis praesentium similique,
-							corporis placeat ratione quas id debitis earum nobis, dolorem temporibus quae et neque
-							expedita
-							repellat! Corrupti, quibusdam commodi?</h3>
-					</div>
-					<div class="img-fluid col-12 col-md-6 p-3">
-						<img src="https://place-hold.it/1000x700" class="d-block w-100" alt="...">
+				<div class="carousel-item" data-bs-interval="2000">
+					<img src="https://place-hold.it/1000x700" class="d-block w-100" alt="...">
+					<div class="carousel-caption d-none d-md-block">
+						<h5>Second slide label</h5>
+						<p>Some representative placeholder content for the second slide.</p>
 					</div>
 				</div>
-
-				<div class="row ">
-
-					<div class="img-fluid col-12 col-md-6 p-3">
-						<img src="https://place-hold.it/1000x700" class="d-block w-100" alt="...">
-					</div>
-					<div class="col-12 col-md-6">
-						<h3 class="px-1 py-4 text-center text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum
-							reiciendis praesentium similique,
-							corporis placeat ratione quas id debitis earum nobis, dolorem temporibus quae et neque
-							expedita
-							repellat! Corrupti, quibusdam commodi?</h3>
-					</div>
-				</div>
-				<div class="row ">
-					<div class="col-12 col-md-6">
-						<h3 class="px-1 py-4 text-center text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum
-							reiciendis praesentium similique,
-							corporis placeat ratione quas id debitis earum nobis, dolorem temporibus quae et neque
-							expedita
-							repellat! Corrupti, quibusdam commodi?</h3>
-					</div>
-					<div class="img-fluid col-12 col-md-6 p-3">
-						<img src="https://place-hold.it/1000x700" class="d-block w-100" alt="...">
-					</div>
-				</div>
-				<div class="row ">
-
-					<div class="img-fluid col-12 col-md-6 p-3">
-						<img src="https://place-hold.it/1000x700" class="d-block w-100" alt="...">
-					</div>
-					<div class="col-12 col-md-6">
-						<h3 class="px-1 py-4 text-center text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum
-							reiciendis praesentium similique,
-							corporis placeat ratione quas id debitis earum nobis, dolorem temporibus quae et neque
-							expedita
-							repellat! Corrupti, quibusdam commodi?</h3>
+				<div class="carousel-item">
+					<img src="https://place-hold.it/1000x700" class="d-block w-100" alt="...">
+					<div class="carousel-caption d-none d-md-block">
+						<h5>Third slide label</h5>
+						<p>Some representative placeholder content for the third slide.</p>
 					</div>
 				</div>
 			</div>
-			<!--Teкст якийсь-->
-			<div class="mx-auto text-center my-5">
-				<h2>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus sunt dolores magni dicta voluptates
-					aut
-					culpa provident illum ab id quisquam, iusto asperiores quis, maxime ratione? Explicabo porro odit
-					maiores.</h2>
+			<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+				data-bs-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Previous</span>
+			</button>
+			<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+				data-bs-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Next</span>
+			</button>
+		</div>
+		<!--Teкст якийсь-->
+		<div class="mx-auto text-center my-5">
+			<h2>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus sunt dolores magni dicta voluptates
+				aut
+				culpa provident illum ab id quisquam, iusto asperiores quis, maxime ratione? Explicabo porro odit
+				maiores.</h2>
+		</div>
+
+
+		<!--Категорії -->
+
+		<div id="Categories" class="mx-auto container">
+			<div class="row">
+				<div class="col-12 col-lg-6 d-none d-lg-block my-auto">
+					<h3 class="px-3 py-4 text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum
+						reiciendis praesentium similique,
+						corporis placeat ratione quas id debitis earum nobis, dolorem temporibus quae et neque
+						expedita
+						repellat! Corrupti, quibusdam commodi?</h3>
+				</div>
+				<div class="img-fluid col-12 col-lg-6 p-3">
+					<img src="https://place-hold.it/1000x700" class="d-block w-100" alt="...">
+				</div>
+				<div class="col-12 col-lg-6 d-lg-none my-auto">
+					<h3 class="px-3 py-4 text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum
+						reiciendis praesentium similique,
+						corporis placeat ratione quas id debitis earum nobis, dolorem temporibus quae et neque
+						expedita
+						repellat! Corrupti, quibusdam commodi?</h3>
+				</div>
 			</div>
 
-		</main>
+			<div class="row">
+				<div class="img-fluid col-12 col-lg-6 p-3">
+					<img src="https://place-hold.it/1000x700" class="d-block w-100" alt="...">
+				</div>
+				<div class="col-12 col-lg-6  my-auto">
+					<h3 class="px-3 py-4 text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum
+						reiciendis praesentium similique,
+						corporis placeat ratione quas id debitis earum nobis, dolorem temporibus quae et neque
+						expedita
+						repellat! Corrupti, quibusdam commodi?</h3>
+				</div>
+			</div>
 
-		<footer class="footer">
-			<span>like</span>
-		</footer>
-		<script src="./js/bootstrap.bundle.min.js"></script>
+			<div class="row">
+				<div class="col-12 col-lg-6 d-none d-lg-block my-auto">
+					<h3 class="px-3 py-4 text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum
+						reiciendis praesentium similique,
+						corporis placeat ratione quas id debitis earum nobis, dolorem temporibus quae et neque
+						expedita
+						repellat! Corrupti, quibusdam commodi?</h3>
+				</div>
+				<div class="img-fluid col-12 col-lg-6 p-3">
+					<img src="https://place-hold.it/1000x700" class="d-block w-100" alt="...">
+				</div>
+				<div class="col-12 col-lg-6 d-lg-none  my-auto">
+					<h3 class="px-3 py-4 text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum
+						reiciendis praesentium similique,
+						corporis placeat ratione quas id debitis earum nobis, dolorem temporibus quae et neque
+						expedita
+						repellat! Corrupti, quibusdam commodi?</h3>
+				</div>
+			</div>
+
+			<div class="row">
+
+				<div class="img-fluid col-12 col-lg-6 p-3">
+					<img src="https://place-hold.it/1000x700" class="d-block w-100" alt="...">
+				</div>
+				<div class="col-12 col-lg-6  my-auto">
+					<h3 class="px-3 py-4 text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum
+						reiciendis praesentium similique,
+						corporis placeat ratione quas id debitis earum nobis, dolorem temporibus quae et neque
+						expedita
+						repellat! Corrupti, quibusdam commodi?</h3>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12 col-lg-6 d-none d-lg-block my-auto">
+					<h3 class="px-3 py-4 text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum
+						reiciendis praesentium similique,
+						corporis placeat ratione quas id debitis earum nobis, dolorem temporibus quae et neque
+						expedita
+						repellat! Corrupti, quibusdam commodi?</h3>
+				</div>
+				<div class="img-fluid col-12 col-lg-6 p-3">
+					<img src="https://place-hold.it/1000x700" class="d-block w-100" alt="...">
+				</div>
+				<div class="col-12 col-lg-6 d-lg-none  my-auto">
+					<h3 class="px-3 py-4 text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum
+						reiciendis praesentium similique,
+						corporis placeat ratione quas id debitis earum nobis, dolorem temporibus quae et neque
+						expedita
+						repellat! Corrupti, quibusdam commodi?</h3>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12 col-lg-6 d-none d-lg-block my-auto">
+					<h3 class="px-3 py-4 text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum
+						reiciendis praesentium similique,
+						corporis placeat ratione quas id debitis earum nobis, dolorem temporibus quae et neque
+						expedita
+						repellat! Corrupti, quibusdam commodi?</h3>
+				</div>
+				<div class="img-fluid col-12 col-lg-6 p-3">
+					<img src="https://place-hold.it/1000x700" class="d-block w-100" alt="...">
+				</div>
+				<div class="col-12 col-lg-6 d-lg-none  my-auto">
+					<h3 class="px-3 py-4 text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum
+						reiciendis praesentium similique,
+						corporis placeat ratione quas id debitis earum nobis, dolorem temporibus quae et neque
+						expedita
+						repellat! Corrupti, quibusdam commodi?</h3>
+				</div>
+			</div>
+		</div>
+		<!--Teкст якийсь
+		<div class="mx-auto text-center my-5">
+			<h2>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus sunt dolores magni dicta voluptates
+				aut
+				culpa provident illum ab id quisquam, iusto asperiores quis, maxime ratione? Explicabo porro odit
+				maiores.</h2>
+		</div>-->
+
+	</main><!--Основне тіло сайту-->
+
+	<footer class="card-footer">
+		
+	   <div class="container w-75">
+        <div class="row">
+
+			<section id="developers" class="col-md-6"> 
+             <span>Розробники:</span><br>
+			<a href ="https://t.me/alexreshetnik" class="telegram"><i class="bi bi-telegram"></i>Решетнік Олексій</a><br>
+			<a href ="https://t.me/Max923M" class="telegram"><i class="bi bi-telegram"></i>Максимчук Максим </a><br>
+			<a href ="https://t.me/Viden22014" class="telegram"><i class="bi bi-telegram"></i>Гуменюк Богдан</a>
+			<hr class="d-block d-md-none">
+			</section>
+
+			<section id="testimonials" class="col-md-6">
+			<p>"Неймовірні Карпати. Насичена програма, купа цікавих місць, нескладні маршрути, що для мене було важливо!"</p>
+			<p>"Ужгородський замок знаходиться в старому місті. Я люблю підніматися туди пішком, гуляючи по старому місті. Але якби не ваш опис локації, напевно б і не подумала туди з'їздити"</p>
+			</section>
+
+		</div>
+		<div id ="copyright" class="text-center">&copy; Copyright Custom company 2022 </div>
+	   </div>
+	</footer><!--Підвал сайту-->
+
+	<script src="./js/name.js"></script>
+	<script src="./js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>

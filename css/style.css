@@ -1,139 +1,164 @@
-
 header {
     width: 100%;
-   /* background-color: #1f3488;*/
+    background-color: #b3afa4;
+    color: rgb(54, 54, 54);
 }
-/*header *{
-    color:rgb(80, 79, 79) !important;
-}*/
-.carousel-item img {
-    height: 100%  ;
-}
-body{
+body {
     width: 100%;
     align-items: center;
-
     background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(11).jpg");
-    height: 70%; 
+    height: 70%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
-main{
+main {
     margin-top: auto;
     margin-left: auto;
     margin-right: auto;
-    width: 60%;
+    width: 75% !important;
 }
-.row img{
-    border-radius: 15px;
+#navbarBrandText {
+    font-family: "Caveat", cursive;
+    font-size: 45px;
+    color: rgb(54, 54, 54);
+}
 
+#Catalog {
+    font-size: 25px;
+    margin-left: 3%;
 }
-#carouselExampleDark{
+#Phone a {
+    font-size: 25px;
+}
+#Phone div {
+    font-size: 10px;
+}
+
+#carouselExampleDark {
     margin-top: 2%;
     border-radius: 15px;
     overflow: hidden;
 }
-#mainText{
+#mainText {
     z-index: 2;
 }
 
-.navbar-toggler-icon{
+.navbar-toggler-icon {
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
-
-
-.row{
+#Categories {
+    width: 100% !important;
+}
+#Categories > .row {
     margin: 20px;
     background-color: #00000067;
-    color:rgba(255, 255, 255, 0.653);
+    color: rgba(255, 255, 255, 0.653);
     border-radius: 15px;
 }
-.bg-blue{
-    background-color: #b2923d;
+#Categories img {
+    border-radius: 15px;
 }
 
 /******HEADER******/
-.navbar-brand h1{
-    font-family:'Monsterrat', sana-serif;
-    color:#629537;
+.navbar-brand h1 {
+    font-family: "Monsterrat", sana-serif;
     font-size: 1.5em;
-    text-transform: uppercase;
+
     font-weight: bold;
-    text-shadow: 1px, 1px, 1px,#222;
+    text-shadow: 1px, 1px, 1px, #222;
     margin-top: 0;
     margin-bottom: 0;
-
-}
-.navbar-brand a{
-    text-decoration: none;
-
-}
-.navbar-nav a{
-    color:#47558a;
-    font-size: 1.3em;
-
 }
 
-.dropdown-menu{
-    background-color:  #898989 ;
+.dropdown-menu {
+    background-color: #898989;
 }
-.dropdown-divider{
-    color:#ffffff;
-    height: 4;
+.dropdown-divider {
+    color: #ffffff;
 }
-#phone{
+#phone {
     text-align: right;
 }
 
-.footer{
+
+
+.footer {
     background-color: #222;
 }
+.telegram {
+    text-decoration:none;
+    
+}
 
+.card-footer{
+    margin-top: 30px;
+    padding-top: 35px;
+    padding-bottom: 30px;
+    color: rgb(54, 54, 54);
+    background: #b3afa4;
+    border:0;
+}
 
+#copyright{
+    padding-top:25px;
+}
 /******HEADER******/
 /*Extra large devices*/
-@media(min-width: 1200px) {
-    .d-small{
-        display: none;
+@media (min-width: 1200px) {
+    #Catalog {
+        font-size: 40px;
+        margin-left: 30%;
+    }
+    #Phone a {
+        font-size: 35px;
+    }
+    #Phone div {
+        font-size: 20px;
     }
 }
 /*large devices*/
-@media(min-width: 992px) and (max-width: 1199px) {
-    .d-small{
-        display: none;
+@media (min-width: 992px) and (max-width: 1199px) {
+    #Catalog {
+        font-size: 30px;
+        margin-left: 13%;
     }
-    .navbar-nav{
-        font-size:70%;
+    #Phone a {
+        font-size: 30px;
+    }
+    #Phone div {
+        font-size: 15px;
+    }
+    main {
+        width: 80% !important;
+    }
+    #Categories {
+        width: 100% !important;
     }
 }
 /*medium devices*/
-@media(min-width: 768px) and (max-width:991px){
-    .d-small{
-        display: block;
+@media (min-width: 768px) and (max-width: 991px) {
+    #Catalog {
+        font-size: 22px;
+        margin-left: 3%;
     }
-    .navbar-brand h1{
-        font-size:95%;
+    #Phone a {
+        font-size: 22px;
     }
-    .navbar-nav{
-        font-size:60%;
+    #Phone div {
+        font-size: 10px;
     }
+    main {
+        width: 95% !important;
+    }
+    #Categories img {
+        width:100% !important;
+    }
+  
 }
 /*small devices*/
-@media(min-width: 576px) and (max-width:767px){
-    .d-small{
-        display: block;
-    }
-    .navbar-brand h1{
-        font-size:95%;
-    }
+@media (min-width: 576px) and (max-width: 767px) {
 }
 /*X-small devices*/
-@media(max-width: 575px) {
-    .d-small{
-        display: block;
-    }
-    .navbar-brand h1{
-        font-size:95%;
-    }
+@media (max-width: 575px) {
 }
