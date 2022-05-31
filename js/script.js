@@ -31,8 +31,8 @@ function loadCatalog() {
     document.querySelector("#burger").innerHTML=""
     GET("db/regions/regions.json", "json").then(Jregions => {
         Jregions.forEach((i)=>{
-            document.querySelector("#burger").innerHTML+=`<li><a class="" href="#">${i.shortnameRegion}</a></li>`
-            CatalogStr +=`<li><a class="dropdown-item " href="#">${i.shortnameRegion}</a></li>`
+            document.querySelector("#burger").innerHTML+=`<li><a class="" onclick="goToRegion('db/regions/${i.shortnameRegion}');" href="#">${i.shortnameRegion}</a></li>`
+            CatalogStr +=`<li><a class="dropdown-item " onclick="goToRegion('db/regions/${i.shortnameRegion}');" href="#">${i.shortnameRegion}</a></li>`
         })       
         CatalogStr+=`</ul></li>`
         document.querySelector("#Catalog").innerHTML=CatalogStr
@@ -67,15 +67,14 @@ function loadRegions() {
     GET("inserts/region.html", "text").then(region => {
         GET("inserts/region-carousel-item.html", "text").then(carousel_item => {
             GET("db/regions/regions.json", "json").then(Jregions => {
-                Jregions.forEach(i => {
-                    console.log(i);
+                Jregions.forEach(i => {  
                     let Region = region;
                     GET(`db/regions/${i.shortnameRegion}/places.json`, "json").then(places => {
                         places.forEach(l => {
                             let carouselItemHtml = insertProperty(carousel_item, "img", `db/regions/${i.shortnameRegion}/${l.shortname}/1.jpg`)
                             carouselItemHtml = insertProperty(carouselItemHtml, "active", l.id == 1 ? "active" : "")
                             carouselItemHtml = insertProperty(carouselItemHtml, "alt", l.shortname)
-                            Region = insertProperty(Region, "img", carouselItemHtml + '{{img}}')
+                            Region = insertProperty(Region, "img", carouselItemHtml + (l.id!=places[places.length-1].id?'{{img}}':""))
                         })
                         Region = insertProperty(Region, "textHeader", i.name)
                         Region = insertProperty(Region, "onclick", `onclick="goToRegion('db/regions/${i.shortnameRegion}');"`)
@@ -101,7 +100,7 @@ function loadMainCaroucel() {
                         Main_carousel_item = insertProperty(Main_carousel_item, "link", `db/regions/${i.shortnameRegion}/${places[0].shortname}/1.jpg`)
                         Main_carousel_item = insertProperty(Main_carousel_item, "name", places[0].name)
                         Main_carousel_item = insertProperty(Main_carousel_item, "active", i.id == 1 ? "active" : "")
-                        main_carousel = insertProperty(main_carousel, "main-carousel-item", Main_carousel_item + '{{main-carousel-item}}')
+                        main_carousel = insertProperty(main_carousel, "main-carousel-item", Main_carousel_item + (i.id!=Jregions[Jregions.length-1].id?'{{main-carousel-item}}':""))
                         main_carousel = insertProperty(main_carousel, "mainText", i.name)
                         document.querySelector("#carouselExampleIndicators").innerHTML = main_carousel
                     })
@@ -130,7 +129,7 @@ function loadMainCaroucelRegoin(nameRegoin) {
                         Main_carousel_item = insertProperty(Main_carousel_item, "link", `${nameRegoin}/${i.shortname}/1.jpg`)
                         Main_carousel_item = insertProperty(Main_carousel_item, "name", i.name)
                         Main_carousel_item = insertProperty(Main_carousel_item, "active", i.id == 1 ? "active" : "")
-                        main_carousel = insertProperty(main_carousel, "main-carousel-item", Main_carousel_item + '{{main-carousel-item}}')
+                        main_carousel = insertProperty(main_carousel, "main-carousel-item", Main_carousel_item + (i.id!=places[places.length-1].id?'{{main-carousel-item}}':""))
                         main_carousel = insertProperty(main_carousel, "mainText", Jregions.find((i =>
                             i.shortnameRegion == nameRegoin.slice(nameRegoin.lastIndexOf("/") + 1, nameRegoin.length))).name)
 
@@ -155,7 +154,7 @@ function loadOneRegion(nameRegoin) {
                         carouselItemHtml = insertProperty(carousel_item, "img", `${nameRegoin}/${i.shortname}/${l}.jpg`)
                         carouselItemHtml = insertProperty(carouselItemHtml, "active", l == 1 ? "active" : "")
                         carouselItemHtml = insertProperty(carouselItemHtml, "alt", l.shortname)
-                        Region = insertProperty(Region, "img", carouselItemHtml + '{{img}}')
+                        Region = insertProperty(Region, "img", carouselItemHtml + ( l < i.photosAmount?'{{img}}':""))
                     }
 
                     Region = insertProperty(Region, "carouselExampleControls", "carouselExampleControls" + i.id, "g")
@@ -190,7 +189,7 @@ function loadMainCaroucelLocation(nameLocation) {
                         Main_carousel_item = insertProperty(Main_carousel_item, "active", l == 1 ? "active" : "")
                         Main_carousel_item = insertProperty(Main_carousel_item, "alt", "")
                         Main_carousel_item = insertProperty(Main_carousel_item, "name", "")
-                        main_carousel = insertProperty(main_carousel, "main-carousel-item", Main_carousel_item + '{{main-carousel-item}}')
+                        main_carousel = insertProperty(main_carousel, "main-carousel-item", Main_carousel_item + (l<places.find((i => i.shortname == str2)).photosAmount?'{{main-carousel-item}}':""))
                         main_carousel = insertProperty(main_carousel, "mainText",
                             places.find((i => i.shortname == str2)).name)          
                     }
