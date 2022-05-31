@@ -10,5 +10,4 @@ window.addEventListener('DOMContentLoaded', () => {
         }, 2000)
     }
     document.querySelector("#UserName").innerHTML = `Ми вже чекаємо на ваш дзвінок : ${name.toUpperCase()||""}`;
-    toUpperCase
 });

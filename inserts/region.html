@@ -1,0 +1,22 @@
+<div class="row {{flex-row-reverse}}" {{onclick}} >
+    <div class="img-fluid col-12 col-lg-6 p-3">
+        <div id="{{carouselExampleControls}}" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                {{img}}
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#{{carouselExampleControls}}" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#{{carouselExampleControls}}" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+        
+          </div>
+    </div>
+    <div class="col-12 col-lg-6  my-auto">
+        <h2 class="px-3 py-2 pt-4 text-center textHeader">{{textHeader}}</h2>
+        <h3 class="px-3 py-2 pb-4 text-center">{{text}}</h3>
+    </div>
+</div>
