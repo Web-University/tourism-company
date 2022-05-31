@@ -1,44 +1,44 @@
 [
     {
         "id": 1,
-        "name": "Івано-Франківська обл.",
+        "name": "Прикарпаття є досить популярним туристичним напрямком, особливо взимку!",
         "shortnameRegion": "Ivano-Frankivska",
         "placesAmount":4,
-        "notes": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque, soluta asperiores recusandae dignissimos remtemporibus iusto non dolor necessitatibus voluptate mollitia optio sed dicta nemo qui id, earum nesciunt doloribus!"
+        "notes": "Івано-Франківська область за територією порівняно невелика, але за характером рельєфу належить до числа найбільш мальовничих в Україні. Третину території займають Карпатські гори, а дві третини - передгірська і рівнинна зони. "
     },
     {
         "id": 2,
-        "name": "Хмельницька обл.",
+        "name": "Хмельниччина - край унікальної і самобутньої культури.",
         "shortnameRegion": "Khmelnytska",
         "placesAmount":4,
-        "notes": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque, soluta asperiores recusandae dignissimos remtemporibus iusto non dolor necessitatibus voluptate mollitia optio sed dicta nemo qui id, earum nesciunt doloribus!"
+        "notes": "Хмельницька область знаходиться на плато Подільської височини, яка тягнеться із заходу на схід вздовж одних із найбільших  рік України  – Дністра та Південного Бугу, область розташована на Поділлі та Південно-Східній Волині."
     },
     {
         "id": 3,
-        "name": "Львівська обл.",
+        "name": "Львів – місто цікаве та багатогранне: його архітектура вражає та зачаровує, тут процвітає туризм.",
         "shortnameRegion": "Lvivska",
         "placesAmount":4,
-        "notes": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque, soluta asperiores recusandae dignissimos remtemporibus iusto non dolor necessitatibus voluptate mollitia optio sed dicta nemo qui id, earum nesciunt doloribus!"
+        "notes": "Якщо Київ – столиця України, то Львів – її серце і душа. Старовинне середньовічне місто, що веде свою історію з 13 століття, назване так на честь сина Данила Галицького, що не втратив свого культурного значення і сьогодні."
     },
     {
         "id": 4,
-        "name": "Рівненська обл.",
+        "name": "Попри всі випробування Рівне зберегло велику кількість архітектурних пам’яток, до яких входять не лише сакральні, а й монументальні споруди",
         "shortnameRegion": "Rivnenska",
         "placesAmount":4,
-        "notes": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque, soluta asperiores recusandae dignissimos remtemporibus iusto non dolor necessitatibus voluptate mollitia optio sed dicta nemo qui id, earum nesciunt doloribus!"
+        "notes":"Рівненщина останнє десятиліття активно пропагує туризм. Це й агротуризм у зелених садибах, і стилізовані етнопоселення, де можна навчитися давніх ремесел, і веломаршрути, котрі з кожним роком облагороджують й розбудовують, й ошатні музеї у колишніх фортифікаційних спорудах, як от Дубно чи Острог."
     },
     {
         "id": 5,
-        "name": "Тернопільска обл.",
+        "name": "Ми зібрали найкращі місця для проведення дозвілля поблизу Тернополя, які можна відвідати протягом одного дня.",
         "shortnameRegion": "Ternopilska",
         "placesAmount":4,
-        "notes": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque, soluta asperiores recusandae dignissimos remtemporibus iusto non dolor necessitatibus voluptate mollitia optio sed dicta nemo qui id, earum nesciunt doloribus!"
+        "notes": "Край, у якому кожне село має свою архітектурну пам’ятку. Тернопілля – область, де розташовані понад третина всіх українських замків, є три великі горизонтальні гіпсові печери, які приймають туристів, Дністровський каньйон і власні, Кременецькі гори – частина Подільської височини."
     },
     {
         "id": 6,
-        "name": "Закарпатська обл.",
+        "name": "Сьогодні в Закарпатті представлено понад сотня різновидів туризму, які активно чи пасивно розвиваються в карпатському регіоні, нижче подано коротку інформацію про них",
         "shortnameRegion": "Zakarpatska",
         "placesAmount":4,
-        "notes": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque, soluta asperiores recusandae dignissimos remtemporibus iusto non dolor necessitatibus voluptate mollitia optio sed dicta nemo qui id, earum nesciunt doloribus!"
+        "notes": "Закарпаття надзвичайно перспективний  регіон  України з точки зору туризму, рекреації та відпочинку. Туристична галузь – це потужний чинник  розвитку області. Унікальний лікувально-рекреаційний потенціал, який  сприяє  розвитку  різних видів туризму, з кожним роком залучає у Закарпаття  все більше відвідувачів."
     }
 ]

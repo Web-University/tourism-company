@@ -4,7 +4,7 @@
         "name": "Блакитне Озеро",
         "shortname": "Blakytne_Ozero",
         "photosAmount": 4,
-        "description":  "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque, soluta asperiores recusandae dignissimos remtemporibus iusto non dolor necessitatibus voluptate mollitia optio sed dicta nemo qui id, earum nesciunt doloribus!",
+        "description":  "Загублене серед львівських Карпат маленьке містечко Турка. Це столиця Бойківщини, місто дерев’яних церков та синагоги-фортеці, неспішна і велична… а також маловідомий Кам’яний турківський кар’єр. Турка безумовно заслуговує на вашу увагу. Кам’яний кар’єр називають Блакитним озером через його красивий колір. ",
         "gmapsRef":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2609.421143755524!2d23.00824001564033!3d49.1546139793177!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473bd111350ada03%3A0x6b6deab98c2f4b38!2sTurkivs%CA%B9kyy%20Kar&#39;yer!5e0!3m2!1sru!2sua!4v1653138578596!5m2!1sru!2sua"
     },
     {
@@ -12,7 +12,7 @@
         "name": "Кам’янецький Водоспад",
         "shortname": "Kamianetskyi_Vodospad",
         "photosAmount": 4,
-        "description":  "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque, soluta asperiores recusandae dignissimos remtemporibus iusto non dolor necessitatibus voluptate mollitia optio sed dicta nemo qui id, earum nesciunt doloribus!",
+        "description":  "Мабуть, немає такого українця, котрий б не мріяв про повноцінний відпочинок, сповнений безцінних емоцій та неповторних вражень. Мрії повинні здійснюватися. Для цього не обов'язково відкладати захмарні суми для тижневої поїздки на дорожезні курорти. Просто приїздіть в Карпати! Казкові пейзажі, найщиріша гостинність та найчистіше повітря зцілять не тільки тіло, а й душу. Кам'янецький водоспад – ідеальний початок для відпочинку в горах. Знаходиться це диво в Сколівському районі Львівської області. А саме на річці Кам'янка, що протікає на території Національного природного парку «Сколівські Бескиди».",
         "gmapsRef":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2615.7966869529087!2d23.56173651563587!3d49.033473779305!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473a22e29bf598ef%3A0x8c2c7b5bc67ba066!2z0JLQvtC00L7Qv9Cw0LQg0JrQsNC80Y_QvdC60LA!5e0!3m2!1sru!2sua!4v1653138603419!5m2!1sru!2sua"
     },
     {
@@ -20,7 +20,7 @@
         "name": "Розгірче",
         "shortname": "Rozghirche",
         "photosAmount": 4,
-        "description":  "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque, soluta asperiores recusandae dignissimos remtemporibus iusto non dolor necessitatibus voluptate mollitia optio sed dicta nemo qui id, earum nesciunt doloribus!",
+        "description":  "Розгірче — старовинне село в долині річки Стрий. Відоме з 1460 року. Населення складає близько 500 осіб. На південно-східній околиці села розташований скельний монастир, перші згадки про який відносяться до другої половини XV ст. Ймовірно розбудовувався в XIII—XIV ст. У товщі основного скельного масиву вибито три печери, які знаходяться у двох рівнях. На першому рівні два приміщення, а на другому (до якого ведуть сходи) — одне приміщення. Дослідники вважають нижню велику печеру жилою кімнатою, до якої примикала комора, а верхню печеру — монастирською церквою. За легендою, невдалі і все раз гірші спроби татар оволодіти укріпленням дали назву селу. ",
         "gmapsRef":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10445.259315246352!2d23.68487724091555!3d49.11865566901987!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473a3dfc34d32cc9%3A0xe201fd7f15f55fb8!2z0KDQvtC30LPQuNGA0YfQtSwg0JvRjNCy0L7QstGB0LrQsNGPINC-0LHQu9Cw0YHRgtGMLCA4MjQ3Mg!5e0!3m2!1sru!2sua!4v1653138629232!5m2!1sru!2sua"
     },
     {
@@ -28,7 +28,7 @@
         "name": "Урицькі Скелі",
         "shortname": "Urytski_Skeli",
         "photosAmount": 4,
-        "description":  "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque, soluta asperiores recusandae dignissimos remtemporibus iusto non dolor necessitatibus voluptate mollitia optio sed dicta nemo qui id, earum nesciunt doloribus!",
+        "description":  "Урицькі скелі – пам’ятка природи та археології національного значення, яка не має аналогів у Європі. Поблизу села Урич Сколівського району, на лівому схилі долини потоку Уричанка серед лісу височіють величні урвисті скелі висотою до 50 м. Скелі являють собою ерозійні останці масивних пісковиків палеоцену (абсолютний вік 55 млн. р.). Урицькі скелі – не тільки визначна природна, але й археологічна пам’ятка. Тут знайдені рештки стін та будівельних конструкцій, які є залишками давньоруської фортеці Тустань (ХІ – ХІІІ ст). Захисники цієї фортеці на протязі довгого часу чинили опір татаро-монгольським завойовникам.",
         "gmapsRef":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d166877.46893536573!2d23.12932063281249!3d49.1918241!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473a36cf6aa60ce3%3A0xf3f0e7f440cfd566!2z0KLRg9GB0YLQsNC90Yw!5e0!3m2!1sru!2sua!4v1653138699276!5m2!1sru!2sua"
     }
 ]
