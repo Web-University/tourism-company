@@ -27,6 +27,7 @@ header {
 }
 #navbarBrandText {
     font-family: "Caveat", cursive !important;
+    font-weight: 600 !important;
     font-size: 45px;
     color: rgb(54, 54, 54);
 }
@@ -112,6 +113,7 @@ div[id^="carouselExampleControls"],
     margin-top: 2%;
     border-radius: 15px;
     overflow: hidden;
+    box-shadow: 0px 0px 15px 2px #000000c2;
 }
 
 #mainText {
@@ -144,12 +146,19 @@ div[id^="carouselExampleControls"],
 button.active {
     background-color: #ffffff !important;
 }
-#Categories .carousel-control-prev-icon,
-#Categories .carousel-control-next-icon {
-    opacity: 0;
+#carouselExampleIndicators .carousel-control-prev-icon,
+#carouselExampleIndicators .carousel-control-next-icon {
+  
     color: #0d6efd !important;
     height: 50px;
     width: 50px;
+}
+#Categories .carousel-control-prev-icon,
+#Categories .carousel-control-next-icon {
+    opacity: 0;
+}
+.carousel-caption > h5{
+    font-size: 30px;
 }
 .carousel-caption > h5,
 #mainText {
@@ -182,6 +191,7 @@ main {
     background-color: #00000067;
     color: rgb(255, 255, 255);
     border-radius: 15px;
+    box-shadow: 0px 0px 15px 0px #0000009f;
 }
 iframe{
     border-radius: 15px;
