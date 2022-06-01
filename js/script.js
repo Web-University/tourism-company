@@ -184,8 +184,10 @@ function loadOneRegion(nameRegoin) {
     })
 }
 function goToLocation(nameLocation) {
+    if (!document.querySelector("#btBurger").classList.contains("collapsed")) {
+        document.querySelector("#btBurger").dispatchEvent(new Event("click"))
+    }
     window.scrollTo(0, 0)
-
     loadMainCaroucelLocation(nameLocation)
 }
 
