@@ -5,9 +5,9 @@ window.addEventListener('DOMContentLoaded', () => {
             name = prompt("Як ми можемо до вас звертатись?", "")
             if(name){
                 localStorage.setItem("name", name);
-                document.querySelector("#UserName").innerHTML = `Ми вже чекаємо на ваш дзвінок : ${name.toUpperCase()}`;
+                document.querySelector("#UserName").innerHTML = `${name.toUpperCase()}: ми чекаємо на ваш дзвінок!`;
             }
         }, 2000)
     }
-    document.querySelector("#UserName").innerHTML = `Ми вже чекаємо на ваш дзвінок : ${name.toUpperCase()||""}`;
+    document.querySelector("#UserName").innerHTML = `${name.toUpperCase()||""}: ми чекаємо на ваш дзвінок!`;
 });

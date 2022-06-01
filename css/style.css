@@ -234,10 +234,11 @@ main img{
         margin-left: 30%;
     }
     #Phone a {
-        font-size: 25px;
+        font-size: 28px;
     }
     #Phone div {
-        font-size: 15px;
+        font-size: 17px;
+        letter-spacing: 1px;
     }
 }
 /*large devices*/
@@ -247,10 +248,11 @@ main img{
         font-size: 25px;
     }
     #Phone a {
-        font-size: 25px;
+        font-size: 27px;
     }
     #Phone div {
-        font-size: 13px;
+        font-size: 16px;
+        letter-spacing: 1px;
     }
     main {
         width: 80% !important;
@@ -266,16 +268,20 @@ main img{
         margin-left: 3%;
     }
     #Phone a {
-        font-size: 22px;
+        font-size: 25px;
     }
     #Phone div {
-        font-size: 10px;
+        font-size: 15px;
+        letter-spacing: -1px;
     }
     main {
         width: 95% !important;
     }
     #Categories {
         width: 90% !important;
+    }
+    #UserName {
+        text-align: center !important;
     }
 }
 /*small devices*/
@@ -323,5 +329,12 @@ main img{
     #Categories {
         padding: 0;
         width: 100% !important;
+    }
+    #Phone a {
+        font-size: 40px;
+    }
+    #Phone div {
+        text-align: center;
+        font-size: 20px;
     }
 }
