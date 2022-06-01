@@ -33,15 +33,25 @@ function getRandomArbitrary(min, max) {
     return Math.random() * (max - min) + min;
 }
 function loadCatalog() {
-    let CatalogStr = `<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"data-bs-toggle="dropdown" aria-expanded="false">Каталог</a><ul class="dropdown-menu text-center " aria-labelledby="navbarDropdown">`
     document.querySelector("#burger").innerHTML = ""
     GET("db/regions/regions.json", "json").then(Jregions => {
-        Jregions.forEach((i) => {
-            document.querySelector("#burger").innerHTML += `<li><a class="" onclick="goToRegion('db/regions/${i.shortnameRegion}');" href="#">${i.shortnameRegion}</a></li>`
-            CatalogStr += `<li><a class="dropdown-item " onclick="goToRegion('db/regions/${i.shortnameRegion}');" href="#">${i.shortnameRegion}</a></li>`
+        GET("inserts/catalog.html", "text").then(catalog => {
+            GET("inserts/catalog_item.html", "text").then(catalog_item => {
+                GET("inserts/burger_item.html", "text").then(burger_item => {
+                    Jregions.forEach((i) => {
+                        let Catalog_item = catalog_item
+                        let Burger_item = burger_item
+                        Burger_item = insertProperty(Burger_item, "name", i.shortnameRegion)
+                        Burger_item = insertProperty(Burger_item, "onclick", `onclick="goToRegion('db/regions/${i.shortnameRegion}');"`)
+                        Catalog_item = insertProperty(Catalog_item, "name", i.shortnameRegion)
+                        Catalog_item = insertProperty(Catalog_item, "onclick", `onclick="goToRegion('db/regions/${i.shortnameRegion}');"`)
+                        catalog = insertProperty(catalog, "item", Catalog_item + (i.id != Jregions[Jregions.length - 1].id ? '{{item}}' : ""))
+                        document.querySelector("#burger").innerHTML += Burger_item
+                    })
+                    document.querySelector("#Catalog").innerHTML = catalog
+                })
+            })
         })
-        CatalogStr += `</ul></li>`
-        document.querySelector("#Catalog").innerHTML = CatalogStr
     })
     window.scrollTo(0, 0)
 }
@@ -74,7 +84,7 @@ function loadRegions() {
     GET("inserts/region.html", "text").then(region => {
         GET("inserts/region-carousel-item.html", "text").then(carousel_item => {
             GET("db/regions/regions.json", "json").then(Jregions => {
-                let index=0;
+                let index = 0;
                 Jregions.forEach(i => {
                     let Region = region;
                     GET(`db/regions/${i.shortnameRegion}/places.json`, "json").then(places => {
@@ -89,7 +99,7 @@ function loadRegions() {
                         Region = insertProperty(Region, "nameRegion", i.shortnameRegion)
                         Region = insertProperty(Region, "text", i.notes)
                         Region = insertProperty(Region, "carouselExampleControls", "carouselExampleControls" + i.id, "g")
-                        Region = insertProperty(Region, "flex-row-reverse", index++ % 2 == 0 ? "flex-row-reverse" : "")       
+                        Region = insertProperty(Region, "flex-row-reverse", index++ % 2 == 0 ? "flex-row-reverse" : "")
                         document.querySelector("#Categories").innerHTML += Region
 
                     })
@@ -111,7 +121,7 @@ function loadMainCaroucel() {
                         Main_carousel_item = insertProperty(Main_carousel_item, "active", i.id == 1 ? "active" : "")
                         main_carousel = insertProperty(main_carousel, "main-carousel-item", Main_carousel_item + (i.id != Jregions[Jregions.length - 1].id ? '{{main-carousel-item}}' : ""))
                         main_carousel = insertProperty(main_carousel, "mainText", 'Подорожуйте та будьте щасливими!')
-                        
+
                         document.querySelector("#carouselExampleIndicators").innerHTML = main_carousel
                     })
                 })
@@ -130,8 +140,21 @@ function goToRegion(nameRegoin) {
     window.scrollTo(0, 0)
     loadMainCaroucelRegoin(nameRegoin)
     loadOneRegion(nameRegoin)
-}
+    setActiveCategory(nameRegoin)
 
+}
+function setActiveCategory(nameRegoin) {
+    let targetItem = nameRegoin.slice(nameRegoin.lastIndexOf("/") + 1, nameRegoin.length)
+    let items = document.querySelector("#burger").querySelectorAll("li")
+    items.forEach(i => {
+        console.log(i.querySelector("a").text);
+        if (i.querySelector("a").text == targetItem) {
+            i.querySelector("a").classList.add('targetItemActite');
+        } else {
+            i.querySelector("a").classList.remove('targetItemActite');
+        }
+    })
+}
 function loadMainCaroucelRegoin(nameRegoin) {
     GET("db/regions/regions.json", "json").then(Jregions => {
         GET("inserts/main-carousel.html", "text").then(main_carousel => {
@@ -141,7 +164,7 @@ function loadMainCaroucelRegoin(nameRegoin) {
                         let Main_carousel_item = main_carousel_item;
                         Main_carousel_item = insertProperty(Main_carousel_item, "link", `${nameRegoin}/${i.shortname}/1.jpg`)
                         Main_carousel_item = insertProperty(Main_carousel_item, "name", i.name)
-                        Main_carousel_item = insertProperty(Main_carousel_item, "alt",  i.name)
+                        Main_carousel_item = insertProperty(Main_carousel_item, "alt", i.name)
                         Main_carousel_item = insertProperty(Main_carousel_item, "active", i.id == 1 ? "active" : "")
                         main_carousel = insertProperty(main_carousel, "main-carousel-item", Main_carousel_item + (i.id != places[places.length - 1].id ? '{{main-carousel-item}}' : ""))
                         main_carousel = insertProperty(main_carousel, "mainText", Jregions.find((i =>
@@ -160,7 +183,7 @@ function loadOneRegion(nameRegoin) {
     GET("inserts/region.html", "text").then(region => {
         GET("inserts/region-carousel-item.html", "text").then(carousel_item => {
             GET(`${nameRegoin}/places.json`, "json").then(places => {
-                let index=0;
+                let index = 0;
                 places.forEach(i => {
                     let Region = region;
                     let carouselItemHtml
@@ -204,7 +227,7 @@ function loadMainCaroucelLocation(nameLocation) {
                     for (let l = 1; l <= places.find((i => i.shortname == str2)).photosAmount; l++) {
                         let Main_carousel_item = insertProperty(main_carousel_item, "link", `${nameLocation}/${l}.jpg`)
                         Main_carousel_item = insertProperty(Main_carousel_item, "active", l == 1 ? "active" : "")
-                        Main_carousel_item = insertProperty(Main_carousel_item, "alt",  str2)
+                        Main_carousel_item = insertProperty(Main_carousel_item, "alt", str2)
                         Main_carousel_item = insertProperty(Main_carousel_item, "name", "")
                         main_carousel = insertProperty(main_carousel, "main-carousel-item", Main_carousel_item + (l < places.find((i => i.shortname == str2)).photosAmount ? '{{main-carousel-item}}' : ""))
                         main_carousel = insertProperty(main_carousel, "mainText",
